@@ -1,0 +1,36 @@
+html{
+    font-family: sans-serif;
+    margin-top:0;
+}
+
+
+.menu{   
+    display:flex;
+    justify-content: space-between;
+   background-color: red;
+   height: 25px;
+   padding-top:10px;
+   align-items: center;
+   padding-bottom: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    align-items: center;
+
+    padding-top:10px;
+}
+.menu a:first-child{
+    margin-left:10px;
+}
+.menu a:last-child{
+    margin-right:10px;
+}
+.subtitle{
+  margin:30px;
+ font-size: large;
+}
+ p{
+  margin: 10px;
+}
